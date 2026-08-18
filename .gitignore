@@ -1,0 +1,10 @@
+# FTS index — rebuilt locally with: python tools/ingest.py --reindex
+.index/
+
+# inbox is a transient drop zone: docs are converted then deleted,
+# Control-M JSON exports are moved to knowledge/chains/definitions/
+inbox/*
+!inbox/README.md
+
+__pycache__/
+*.pyc

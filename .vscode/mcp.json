@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "second-brain": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspaceFolder}/tools/mcp_server.py"]
+    }
+  }
+}
